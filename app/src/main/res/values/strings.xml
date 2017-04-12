@@ -1,0 +1,46 @@
+<resources>
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string name="app_name">KenESS</string>
+    <string name="customize">Customize</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Not registered yet??  Sign Up now</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="forgot_password">Forgot Password !! </string>
+    <string name="mahashivratri">Considering  the request from the employees and as well as per the approval of the Management
+        on the eve of Maha Shivaratri the office will remain closed on 7th March,2016 .Hope you all enjoy
+        this auspicious day which is believed to be the day of
+        convergence of divine powers of Lord Shiva and Goddess Shakti. </string>
+ <string name="press_release1">Swash launched a brand promotional campaign starting from 28th December 2014 to offer its bucket of services like 360 degree Business and Technology Consulting, Cloud Solutions, On-demand Enterprise Resource Planning (ERP), Enterprise Mobility Services, Big-data Analytics, etc.
+Swash received a massive response from all over nation including Bengaluru, Hyderabad, Kolkata, Mumbai, Pune, Delhi NCR, and Bhubaneswar.
+This ad was featured in Times Of India on 28-Dec-14 on Page No. 03.</string>
+    <string name="text1">KENESS is a complete package to take care of Employee Management using various functions including recruitment, training, work assignment, evaluation, performance appraisal, rewards, etc.
+Recruitment Management allows HR managers to automate Job Requisition,
+        Recruitment Project Creation, Registration of Applicants, Receiving Applications,
+        Arranging Interviews and Hiring with NO or lesser paperwork. </string>
+    <string name="text2">Attendance and Leave management is one of the basic functions in KENESS which not only helps HR Managers to track the employees but with the help of Calendar Management they use many more functions for keeping track of salary slips, holidays, etc.The Payroll Management automates payroll and salary processing with all the supporting functionalities.</string>
+</resources>
+

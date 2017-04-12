@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kenresource.keness.user.HomeActivity">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/acttion_search"
+        android:icon="@drawable/search_new_icon"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_notification"-->
+        <!--android:icon="@drawable/search_new_icon"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Notification"-->
+        <!--app:showAsAction="always" />-->
+</menu>

@@ -1,0 +1,89 @@
+package com.kenresource.keness.user.Adapter;
+
+import android.content.Context;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.kenresource.keness.user.Model.PendingLeaveModel;
+import com.kenresource.keness.user.R;
+
+import java.util.List;
+
+/**
+ * Created by suchismita on 3/2/2017.
+ */
+
+public class PendingLeaveAdapter extends RecyclerView.Adapter<PendingLeaveAdapter.MyViewHolder> {
+    private Context mContext;
+    private List<PendingLeaveModel> leaveModel;
+
+    public class MyViewHolder extends RecyclerView.ViewHolder {
+        public TextView appid, leave_type, date, leaveNo, date_applied, date_approved;
+        public CardView cardView;
+
+        public MyViewHolder(View view) {
+            super(view);
+            appid = (TextView) view.findViewById(R.id.appId);
+            leave_type = (TextView) view.findViewById(R.id.leave_type);
+            date = (TextView) view.findViewById(R.id.from_to_date);
+            leaveNo = (TextView) view.findViewById(R.id.leave_no);
+            date_applied = (TextView) view.findViewById(R.id.date_applied);
+            date_approved =(TextView)view.findViewById(R.id.date_approved);
+            cardView = (CardView) view.findViewById(R.id.card_view);
+
+        }
+    }
+
+    public PendingLeaveAdapter()
+    {
+
+    }
+    public PendingLeaveAdapter(Context mContext, List<PendingLeaveModel> leaveModel) {
+        this.mContext = mContext;
+        this.leaveModel = leaveModel;
+
+    }
+    public PendingLeaveAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View itemView = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.pending_leave_list, parent, false);
+
+        return new PendingLeaveAdapter.MyViewHolder(itemView);
+    }
+
+    @Override
+    public void onBindViewHolder(final PendingLeaveAdapter.MyViewHolder holder, final int position) {
+        PendingLeaveModel album = leaveModel.get(position);
+        holder.appid.setText(album.getAppId());
+        holder.leave_type.setText(album.getLeaveType() );
+        holder.date.setText(album.getDate());
+        holder.leaveNo.setText(album.getNo_leave());
+        holder.date_applied.setText(album.getDate_applied());
+        holder.date_approved.setText(album.getDate_approved());
+//        holder.cardView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(mContext, OrderDetailActivity.class);
+////                intent.putExtra("person_name", NewOrderModel.get(position).());
+////                intent.putExtra("enquiry_for", NewOrderModel.get(position).getEnquiryType());
+////                intent.putExtra("enquiry_query", NewOrderModel.get(position).getQueries());
+////                intent.putExtra("enquiry_phno", NewOrderModel.get(position).getPhoneNo());
+////                intent.putExtra("enquiry_area", enquiryModels.get(position).getArea());
+//                mContext.startActivity(intent);
+//            }
+//        });
+//        holder.country.setText(album.getCountry());
+//        holder.pin.setText(album.getPin());
+//        holder.phoneno.setText(album.getPhoneno());
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return leaveModel.size();
+    }
+}
+

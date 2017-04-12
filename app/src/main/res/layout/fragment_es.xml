@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kenresource.keness.user.Fragment.ESSFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey">
+
+            <LinearLayout
+                android:id="@+id/approval"
+                android:background="@color/blue"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/approvals"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Approval"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+               />
+            <LinearLayout
+                android:id="@+id/leave"
+                android:background="@color/black"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/leave"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="My Leave"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey">
+            <LinearLayout
+                android:id="@+id/time"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/time"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="My Time"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                />
+            <LinearLayout
+                android:id="@+id/pay"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pay"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="My Pay"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\krantibijay.m\Desktop\TFS_120417\KENESS\Sources\KENESS_User\materialcalendarview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e3ac9d9ac7a307f17642fa14d17243e2025af6f">
+        <dex dex="C:\Users\krantibijay.m\Desktop\TFS_120417\KENESS\Sources\KENESS_User\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_3953e397164aeeb4b6cb1485b0c72c2d70e116c3\classes.dex" />
+    </item>
+
+</items>
